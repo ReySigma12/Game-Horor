@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Manuk Manuk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Menu Utama -->
+     <div id="menu">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>THE DARKNESS</h1>
+            <p>ENTER IF YOU DARE</p>
+            <button id="startButton">START TO GAME</button>
+        </div>
+     </div>
+     <!-- Jumpscare  -->
+     <div id="jumpscare">
+        <video id="scarevideo" 
+        playsinline
+        preload="auto"
+        controlslist="nodownload">
+            <source src="jumpscare.mp4" type="video/mp4">
+        </video>
+     </div>
+     <!-- Backsound -->
+      <audio id="backsoundMusic" loop preload="auto">
+        <source src="backsound.mp3" type="audio/mpeg">
+      </audio>
+
+      <script src="script.js"></script>
+</body>
+</html>
